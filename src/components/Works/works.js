@@ -89,12 +89,12 @@ const Works = () => {
             </p>
     
             <div className="linkContainer">
-                <a href="https://github.com/BadshahYadav/HelpingNGO" target="_blank" rel="noreferrer" className='linkItem'>
+                <a href="https://github.com/BadshahYadav/Portfolio-react" target="_blank" rel="noreferrer" className='linkItem'>
                     <img src={GitHub} alt="GitHub" className="link" />
                     <span className='linkText'>Source Code</span>
                 </a>
                 
-                <a href="https://badshahyadav.github.io/HelpingNGO/" target="_blank" rel="noreferrer" className='linkItem'>
+                <a href="https://badshahyadav.github.io/Portfolio-react/" target="_blank" rel="noreferrer" className='linkItem'>
                     <img src={Folder} alt="Folder" className="link" />
                     <span className='linkText'>Live Project</span>
                 </a>
