@@ -1,0 +1,89 @@
+/* Main section */
+
+#skills {
+    /* min-height: calc(100vh - 4rem); */
+    width: 40vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mySkills{
+    /* position: absolute; */
+    top: 2rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 52vh;
+}
+
+/* Center the About Me title */
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center; 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 3rem; 
+    margin-top: 1rem; 
+}
+
+
+/* Parent container: about and skills side by side */
+
+#parentDiv {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    flex-wrap: wrap; 
+}
+
+/* About Section */
+#about {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* About content box */
+.aboutBar {
+    background-color: rgb(50, 50, 50);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* About text styling */
+.aboutBarText h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.ab{
+    color: yellow;
+}
+.aboutBarText p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive for mobile screens */
+@media screen and (max-width: 768px) {
+    #parentDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about, #skills .skillBars {
+        max-width: 100%;
+    }
+}

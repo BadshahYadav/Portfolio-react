@@ -1,0 +1,107 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 45rem;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+.worksImgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.project {
+    background-color: rgb(50, 50, 50);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    width: 45%;
+    min-width: 280px;
+}
+
+.pTitle {
+    color: yellow;
+}
+
+.para {
+    text-align: left;
+    padding: 1rem;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.linkItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.linkText {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.linkItem:hover {
+    color: yellow;
+    transform: scale(1.05);
+}
+
+.workBtn {
+    cursor: pointer;
+    margin: 3rem 0;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 585px) {
+    .worksImgs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%; /* Make projects larger on mobile */
+    }
+}
