@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.3195d116.css",
+    "main.js": "/Portfolio-react/static/js/main.b9299a1e.js",
+    "static/media/image.png": "/Portfolio-react/static/media/image.73686c503d92c4b325a8.png",
+    "static/media/github-logo.png": "/Portfolio-react/static/media/github-logo.d735e504486c895db140.png",
+    "static/media/April-Resume.pdf": "/Portfolio-react/static/media/April-Resume.06320ad308b572828845.pdf",
+    "static/media/techStack.png": "/Portfolio-react/static/media/techStack.25e797489457da5d9921.png",
+    "static/media/logo.png": "/Portfolio-react/static/media/logo.ad6f723f951a54f272f9.png",
+    "static/media/hireme.png": "/Portfolio-react/static/media/hireme.0a2eaf85ef98e407a13d.png",
+    "static/media/file.png": "/Portfolio-react/static/media/file.f3935addf44d0acb45ff.png",
+    "static/media/project1.png": "/Portfolio-react/static/media/project1.a1f2289a283db0684e16.png",
+    "static/media/instagram.png": "/Portfolio-react/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/Portfolio-react/index.html",
+    "main.3195d116.css.map": "/Portfolio-react/static/css/main.3195d116.css.map",
+    "main.b9299a1e.js.map": "/Portfolio-react/static/js/main.b9299a1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3195d116.css",
+    "static/js/main.b9299a1e.js"
+  ]
+}
