@@ -170,6 +170,11 @@ Follow the prompts to deploy your application.
 
 If you have any questions or feedback, feel free to contact me via the [contact form](https://badshahyadav.github.io/Portfolio/) on my portfolio website or connect with me through my social profiles.
 
+## 🔗 Links
+[![instagram](https://img.shields.io/badge/instagram-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/BadshahYadav)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/badshah-kumar-830146234/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_Emperor_4k)
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
