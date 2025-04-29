@@ -23,10 +23,12 @@ const About = () => {
                             <h2>More <span className='ab'>About Me</span></h2>
                             <p>
                                 Hello! I'm Badshah Kumar, a passionate and dedicated Web Developer and competitive coder.
-                                I specialize in turning code into meaningful and impactful applications.
-                                Proficient in JavaScript, React, Node, and Express. Databases like MongoDB and MySQL are my playground,
-                                where I organize data with precision.
-                                Throughout my time in academia, I've had the opportunity to engage in several captivating projects.
+                                I specialize in transforming code into impactful, user-centric applications. With proficiency
+                                in JavaScript, React, Node.js, and Express, I build robust and scalable solutions. My experience
+                                with databases such as MongoDB and MySQL enables me to manage and structure data efficiently.
+                                During my academic journey, I have contributed to a variety of engaging projects—from developing dynamic
+                                web interfaces to implementing complex backend logic. These experiences have not only refined my technical
+                                skills but also deepened my enthusiasm for innovative problem-solving.
                             </p>
                         </div>
                     </div>
@@ -35,6 +37,7 @@ const About = () => {
                 {/* Right side: Skills Section */}
                 <div className="skill">
                     <div className="skillBar">
+                        <h2 className="skillSectionTitle">My <span className='ab'>Skills</span></h2>
                         <div className="skillItem">
                             <img src={html} alt="html5" className="skillBarImg" />
                             <span className="skillName">HTML</span>

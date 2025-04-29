@@ -58,11 +58,18 @@
 .aboutBarText h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    grid-column: 1 / -1; 
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
 }
 .ab{
     color: yellow;
 }
 .aboutBarText p {
+    padding: 0 1rem;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -85,6 +92,17 @@
     padding: 2rem;
     border-radius: 0.5rem;
     justify-items: center;
+    position: relative;
+}
+
+.skillSectionTitle {
+    grid-column: 1 / -1; 
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    color: white;
 }
 
 /* Each skill: image and text vertically */
@@ -111,6 +129,12 @@
 }
 
 /* Responsive layout for tablets and below */
+@media screen and (max-width: 960px) {
+    .skillBar {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
 @media screen and (max-width: 600px) {
     .skillBar {
         grid-template-columns: repeat(2, 1fr);
