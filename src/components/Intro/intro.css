@@ -20,6 +20,7 @@
     height: 100vh;
     width: 100vw;
     padding: 2rem;
+    margin-top: -3rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
@@ -37,8 +38,8 @@
 }
 
 .introPara {
-    font-size: medium;
-    font-weight: 300;
+    font-size: large;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -52,7 +53,7 @@
     border: none;
     border-radius: 0.5rem;
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -71,13 +72,15 @@
     .bg {
         right: -10vw
     }
+
     .introContent {
         font-size: 10vw;
     }
+
     .hello {
         font-size: 4.5vw;
     }
-    
+
 }
 
 @media screen and (max-width:480px) {
