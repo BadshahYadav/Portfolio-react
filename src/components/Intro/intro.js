@@ -11,7 +11,7 @@ const Intro = () => {
             <div className="introContent">
                 <AnimatedText text="Hello," className="hello" />
                 <AnimatedText text="I'm Badshah" className="introText" />
-                <AnimatedText text="Frontend Developer" className="introText" />
+                <AnimatedText text="Web Developer" className="introText" />
                 <p className="introPara">
                     I'm a Frontend Developer with a passion for creating <br />
                     beautiful, responsive, and user-friendly web interfaces.<br />
