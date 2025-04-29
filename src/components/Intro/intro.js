@@ -10,7 +10,7 @@ const Intro = () => {
         <section id="intro">
             <div className="introContent">
                 <AnimatedText text="Hello," className="hello" />
-                <AnimatedText text="I'm Badshah" className="introText" />
+                <span className="introName"><AnimatedText text="I'm Badshah" className="introText" /></span>
                 <AnimatedText text="Web Developer" className="introText" />
                 <p className="introPara">
                     I'm a Frontend Developer with a passion for creating <br />
