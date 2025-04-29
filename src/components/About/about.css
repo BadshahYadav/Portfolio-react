@@ -1,19 +1,5 @@
 /* Main section */
-
-#skills {
-    /* min-height: calc(100vh - 4rem); */
-    width: 40vw;
-    max-width: 65rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-}
-
 .mySkills{
-    /* position: absolute; */
     top: 2rem;
     right: 0;
     z-index: -1;
@@ -41,7 +27,7 @@
     justify-content: space-between; 
     align-items: flex-start;
     gap: 2rem; 
-    max-width: 1200px; 
+    max-width: 80vw; 
     margin: 0 auto; 
     flex-wrap: wrap; 
 }
@@ -58,9 +44,14 @@
 /* About content box */
 .aboutBar {
     background-color: rgb(50, 50, 50);
-    padding: 1.5rem;
+    padding: 1.2rem;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
+    min-width: 300px;
+    max-width: 40vw;
+}
+.aboutBarText{
+    margin-top: -1rem;
 }
 
 /* About text styling */
@@ -74,6 +65,74 @@
 .aboutBarText p {
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.skill {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Grid layout: 4 items per row on desktop, stacks on smaller */
+.skillBar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    background: rgb(50, 50, 50);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    justify-items: center;
+}
+
+/* Each skill: image and text vertically */
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Skill image */
+.skillBarImg {
+    height: 4rem;
+    width: 4rem;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Skill name */
+.skillName {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Responsive layout for tablets and below */
+@media screen and (max-width: 600px) {
+    .skillBar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Responsive layout for mobile */
+@media screen and (max-width: 450px) {
+    .skillBar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .skillBarImg {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .skillName {
+        font-size: 0.9rem;
+    }
 }
 
 /* Responsive for mobile screens */
