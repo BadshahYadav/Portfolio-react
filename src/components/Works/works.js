@@ -103,7 +103,13 @@ const Works = () => {
 
 
     </div>
-            <button className="workBtn">See More</button>
+            <button 
+  className="workBtn" 
+  onClick={() => window.open('https://github.com/BadshahYadav?tab=repositories', '_blank')}
+>
+  See More
+</button>
+
         </section>
     );
 }
